@@ -1,0 +1,48 @@
+POST http://localhost:3000/message HTTP/1.1
+content-type: application/json
+
+{
+    "conversation_id": "abcd123",
+    "message": "Hello, I'm John"
+}
+
+###
+
+POST http://localhost:3000/message HTTP/1.1
+content-type: application/json
+
+{
+    "conversation_id": "abcd123",
+    "message": "Hi, I'm John"
+}
+
+###
+
+POST http://localhost:3000/message HTTP/1.1
+content-type: application/json
+
+{
+    "conversation_id": "abcd123",
+    "message": "Goodbye, I'm John"
+}
+
+
+###
+
+POST http://localhost:3000/message HTTP/1.1
+content-type: application/json
+
+{
+    "conversation_id": "abcd123",
+    "message": "bye, I'm John"
+}
+
+###
+
+POST http://localhost:3000/message HTTP/1.1
+content-type: application/json
+
+{
+    "conversation_id": "abcd123",
+    "message": "Random"
+}
